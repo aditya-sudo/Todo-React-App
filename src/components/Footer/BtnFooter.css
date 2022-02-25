@@ -1,7 +1,7 @@
 footer {
-  position: relative;
-  top: 8%;
-  left: 42%;
+  position: absolute;
+  margin-top: 460;
+  margin-left: 140;
 }
 
 #Button {
