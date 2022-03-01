@@ -1,0 +1,30 @@
+li {
+  margin: 8px 4px;
+  padding: 5px;
+  overflow-x: hidden;
+}
+.Label {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  min-height: 48px;
+  cursor: pointer;
+}
+
+.todo-text {
+  text-align: start;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+  padding: 5px;
+  align-self: center;
+}
+.todo-text.done {
+  font-weight: 300;
+  color: rgb(190, 190, 190);
+}
+.todo-checkbox {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  justify-self: center;
+}
